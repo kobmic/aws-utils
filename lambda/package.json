@@ -1,0 +1,20 @@
+{
+    "engines":{
+        "node":"4.4.2"
+    },
+    "name":"aws-iam-lambda",
+    "version":"0.1.0",
+    "private": true,
+    "scripts": {
+        "start": "node server.js",
+        "test": "./node_modules/.bin/mocha"
+    },
+    "dependencies": {
+        "async":"~1.5.2",
+        "aws-sdk": "*"
+    },
+    "devDependencies": {
+
+  }
+}
+
